@@ -1,5 +1,0 @@
-Function,Time(s)
-write_frame_data,0.00213671
-leapfrog_step,0.000179256
-leapfrog_start,2.25e-06
-compute_accel,0.0108252

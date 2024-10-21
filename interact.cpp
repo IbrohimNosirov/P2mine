@@ -22,6 +22,7 @@ void update_density(particle_t* pi, particle_t* pj, float h2, float C)
     float z  = h2-r2;
     if (z > 0) {
         float rho_ij = C*z*z*z;
+        #pragma omp atomic 
         pi->rho += rho_ij;
         #pragma omp atomic 
         pj->rho += rho_ij;
