@@ -1,0 +1,5 @@
+# -- Compile settings for my laptop
+CPP = clang++
+CPPFLAGS= -I/opt/homebrew/opt/libomp/include -I/opt/homebrew/opt/lua/include -std=c++17 -Wall -g -Xpreprocessor -fopenmp
+OPTFLAGS = -O3
+LIBS     = -lm -L/opt/homebrew/opt/lua/lib -llua -L/opt/homebrew/opt/libomp/lib -lomp

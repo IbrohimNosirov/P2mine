@@ -1,0 +1,5 @@
+Function,Time(s)
+write_frame_data,0.00214679
+leapfrog_step,0.000172372
+leapfrog_start,3e-06
+compute_accel,0.0113248
